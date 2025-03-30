@@ -2,6 +2,7 @@ services:
   - type: web
     name: ogg2mp3
     env: node
+    plan: free
     buildCommand: npm install
-    startCommand: node index.js
-    nodeVersion: 18
+    startCommand: npm start
+    envVars: []
