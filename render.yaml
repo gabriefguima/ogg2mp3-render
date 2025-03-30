@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ogg2mp3
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    nodeVersion: 18
